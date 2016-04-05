@@ -6,6 +6,12 @@ addons:
   apt:
     packages:
       - xvfb
+      - python-pyqt4
+      - python-pyqt5
+      - python-pyside
+      - python3-pyqt4
+      - python3-pyqt5
+      - python3-pyside
 
 python:
   - "2.7"
@@ -26,10 +32,6 @@ env:
  - PYTEST_QT_API=pyqt5
 
 install:
- - sudo apt-get update
- # Qt
- - python scripts/install-qt.py
-
  # PyTest
  - pip install -U pytest
 
