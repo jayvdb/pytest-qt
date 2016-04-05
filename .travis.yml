@@ -6,11 +6,12 @@ addons:
   apt:
     packages:
       - xvfb
-      - python-pyqt4
-      - python-pyqt5
+      - pyqt4.qsci-dev
+      - pyqt5.qsci-dev
       - python-pyside
       - python3-pyqt4
-      - python3-pyqt5
+      - python3-pyqt4.qsci-dev
+      - python3-pyqt5.qsci-dev
       - python3-pyside
 
 python:
